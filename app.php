@@ -18,3 +18,21 @@ $age = 25;
  * 
  * İyi çalışmalar.
  */
+
+
+if($age >= 0 && $age <= 14){
+
+echo "Çocuk";
+
+}elseif($age > 14 && $age < 25){
+
+echo "Genç";
+
+}elseif($age > 24 && $age < 65){
+
+echo "Yetişkin";
+
+}else{
+
+echo "Yaşlı";
+}
